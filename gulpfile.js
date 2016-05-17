@@ -69,7 +69,7 @@ gulp.task('bundle:source', function () {
     return es.merge(
       gulp.src('src/scripts/**/*.html')
         .pipe(ngTemplateCache({
-            module: 'packt',
+            module: 'duelApp',
             root: 'scripts'
         })),
       gulp.src([

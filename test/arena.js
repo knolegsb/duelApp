@@ -3,7 +3,7 @@
 describe('Arena', function () {
 
     beforeEach(function () {
-        module('packt');
+        module('duelApp');
     });
 
     describe('Matchup generation', function () {

@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-angular.module('packt')
+angular.module('duelApp')
   .service('Animals', function (ANIMALS_COLLECTION) {
 
       var Animals = this;

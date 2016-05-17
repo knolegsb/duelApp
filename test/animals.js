@@ -3,7 +3,7 @@
 describe('Animals', function () {
 
     beforeEach(function () {
-        module('packt');
+        module('duelApp');
     });
 
     describe('Finding all animals', function () {

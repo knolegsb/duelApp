@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-angular.module('packt')
+angular.module('duelApp')
   .service('Arena', function (Animals, Terrains, Storage) {
 
       var Arena = this;
@@ -79,3 +79,4 @@ angular.module('packt')
           return outcome;
       }
   });
+

@@ -1,5 +1,14 @@
-﻿$background-color:red;
+﻿/*$background-color:red;
 
 body{
     background-color:$background-color;
-}
+}*/
+
+@import "components/layout";
+@import "components/typography";
+@import "components/buttons";
+@import "components/card";
+@import "components/animal-grid";
+@import "components/loader";
+@import "components/avatar";
+@import "components/colors";

@@ -1,10 +1,10 @@
 ﻿'use strict';
 
 angular.module('duelApp')
-    .service('Terrain', function (TERRAINS_COLLECTION) {
+    .service('Terrains', function (TERRAINS_COLLECTION) {
         var Terrains = this;
 
-        Terrain.findAll = function () {
+        Terrains.findAll = function () {
             return TERRAINS_COLLECTION;
         };
 

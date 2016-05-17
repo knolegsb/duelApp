@@ -1,6 +1,6 @@
 ﻿'use strict';
-angular.module('duleApp')
-    .controller('ArenaCtrl', function (Arena, Animals, $tiemout) {
+angular.module('duelApp')
+    .controller('ArenaCtrl', function (Arena, Animals, $timeout) {
         var vm = this;
 
         vm.AllAnimals = Animals.findAll();
@@ -33,4 +33,4 @@ angular.module('duleApp')
         }
 
         generateMatchup();
-    })
+    });
