@@ -78,5 +78,5 @@ angular.module('duelApp')
 
           return outcome;
       }
-  });
 
+  });

@@ -23,4 +23,5 @@ angular.module('duelApp')
       Animals.getRandomAnimal = function () {
           return ANIMALS_COLLECTION[Math.floor(Math.random() * ANIMALS_COLLECTION.length)];
       };
+
   });

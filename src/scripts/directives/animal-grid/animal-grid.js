@@ -1,10 +1,11 @@
-﻿'use-strict';
+﻿'use strict';
 
 angular.module('duelApp')
-    .directive('animalGrid', function () {
+  .directive('animalGrid', function () {
 
-        return {
-            restrict: 'EA',
-            templateUrl: 'scripts/directives/animal-grid/animal-grid.html'
-        };
-    });
+      return {
+          restrict: 'EA',
+          templateUrl: 'scripts/directives/animal-grid/animal-grid.html'
+      };
+
+  });

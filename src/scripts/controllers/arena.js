@@ -3,7 +3,7 @@ angular.module('duelApp')
     .controller('ArenaCtrl', function (Arena, Animals, $timeout) {
         var vm = this;
 
-        vm.AllAnimals = Animals.findAll();
+        vm.allAnimals = Animals.findAll();
 
         vm.selectAnimal = function (animal) {
             vm.playerAnimal = animal;

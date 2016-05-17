@@ -1,25 +1,28 @@
 ﻿'use strict';
 
 angular.module('duelApp')
-    .service('Terrains', function (TERRAINS_COLLECTION) {
-        var Terrains = this;
+  .service('Terrains', function (TERRAINS_COLLECTION) {
 
-        Terrains.findAll = function () {
-            return TERRAINS_COLLECTION;
-        };
+      var Terrains = this;
 
-        Terrains.find = function (id) {
-            for (var i = 0; i < TERRAINS_COLLECTION.length; i++) {
-                var terrain = TERRAINS_COLLECTION[i];
-                if (terrain.id == id) {
-                    return terrain;
-                }
-            }
+      Terrains.findAll = function () {
+          return TERRAINS_COLLECTION;
+      };
 
-            return undefined;
-        };
+      Terrains.find = function (id) {
+          for (var i = 0; i < TERRAINS_COLLECTION.length; i++) {
+              var terrain = TERRAINS_COLLECTION[i];
+              if (terrain.id === id) {
+                  return terrain;
+              }
+          }
 
-        Terrains.getRandomTerrain = function () {
-            return TERRAINS_COLLECTION[Math.floor(Math.random() * TERRAINS_COLLECTION.length)];
-        };
-    });
+          return undefined;
+      };
+
+      Terrains.getRandomTerrain = function () {
+          return TERRAINS_COLLECTION[Math.floor(Math.random() * TERRAINS_COLLECTION.length)];
+      };
+
+
+  });
